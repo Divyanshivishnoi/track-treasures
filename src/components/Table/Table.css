@@ -1,0 +1,28 @@
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  .dlt-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 70px;
+    margin: 5px;
+    background-color: rgb(201, 61, 61);
+
+  }
+  .dlt-btn :hover{
+    background-color: red;
+  }
